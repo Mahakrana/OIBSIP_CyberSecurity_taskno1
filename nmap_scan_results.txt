@@ -1,0 +1,23 @@
+# Nmap 7.97 scan initiated Tue Aug 12 23:26:38 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sT -sV -p- -oN nmap_scan_results.txt 192.168.1.5
+Nmap scan report for 192.168.1.5
+Host is up (0.00077s latency).
+Not shown: 65520 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE         VERSION
+135/tcp   open     msrpc           Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+139/tcp   open     netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds?
+808/tcp   open     mc-nmf          .NET Message Framing
+5040/tcp  open     unknown
+5357/tcp  open     http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+7070/tcp  open     ssl/realserver?
+7680/tcp  open     pando-pub?
+49664/tcp open     msrpc           Microsoft Windows RPC
+49665/tcp open     msrpc           Microsoft Windows RPC
+49666/tcp open     msrpc           Microsoft Windows RPC
+49667/tcp open     msrpc           Microsoft Windows RPC
+49668/tcp open     msrpc           Microsoft Windows RPC
+49672/tcp open     msrpc           Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+# Nmap done at Tue Aug 12  2025 -- 1 IP address (1 host up) scanned in 102.31 seconds
